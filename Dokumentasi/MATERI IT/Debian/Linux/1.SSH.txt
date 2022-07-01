@@ -1,0 +1,7 @@
+tutorial SSH
+
+1.apt-get install ssh
+2.cd /etc/ssh
+3.nano sshd_config
+4.ganti port 22
+5.cek dengan putty

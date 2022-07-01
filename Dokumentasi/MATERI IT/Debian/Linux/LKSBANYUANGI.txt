@@ -1,0 +1,28 @@
+y
+PANITIA
+
+memiliki 
+ipv4 200.200.200.1/24
+ipv6 fc00:dead:cafe::/64
+Domain : panitia-lks.id
+Ftp://panitia-lks.id
+ftp://200.200.200.1
+repo : http://panitia-lks.id
+
+Peserta
+ip ambil ip terkecil dari server panitia dan Host ID 1 angka dari sisi mikrotik
+server 200.200.200.2/24
+fc00:dead:cafe::2
+domain peserta-lks.id
+1.buat user guest guest
+2.repo ke http://panitia-lks.id
+3.samba
+4.ssh
+5.http dan https include cms
+6.mail server
+7.DNS
+8.Apache
+9.postfix smtp ke peserta-lks.id
+10.web mail
+11.Bind9 peserta-lks.id
+

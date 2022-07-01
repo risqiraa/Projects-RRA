@@ -1,0 +1,15 @@
+apt install apache2 openssl
+
+a2enmod ssl
+
+openssl req -x509 -newkey rsa:1024 -keyout www.key -out www.crt -days 365 -nodes
+
+mkdir /var/www/lks
+
+nano /var/www/lks/index.html
+
+nano /etc/apache2/site-available/lks10.conf
+
+a2ensite lks10.conf
+
+service apache2 restart

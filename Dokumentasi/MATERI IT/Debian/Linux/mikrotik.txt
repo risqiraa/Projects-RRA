@@ -1,0 +1,17 @@
+yg perlu diperhatikandi modul A LANJUTAN
+
+1.pw SERVER
+2.matiin firewall
+3.isi ip
+4.ping client server
+5.add AD
+6.restart
+7.ping lagi
+8.tanda seru
+9.reboot
+10.ping DNS
+11.gisi user client
+12.add user
+13.join domain
+
+

@@ -1,0 +1,33 @@
+MTCRE
+
+Load Balance
+-membagi beban kerja di dua atau lebih link
+
+Fail Over
+-Membackup link utama jika terjadi gangguan
+
+
+static routing
+hanya menggunakan 1 gateway
+tujuan dan gateway (scope 30 distance 1) auto
+
+1.ip address
+2.NAT
+3.ip routes
+4.isi network dan agateway
+
+
+static routing ECMP 
+menggunakan lebih 1 gateway menuju  network yang sama
+
+1.ip address
+2.nat
+3.ip routes
+4.isi network dan lebih dari 1 gateway
+
+static routing ECMP load balancing
+
+
+
+
+

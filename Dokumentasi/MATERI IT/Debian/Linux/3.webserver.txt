@@ -1,0 +1,6 @@
+tutorial webserver
+
+1.apt-get install apache2
+2.cd /var/www/html
+3.index.html
+4.apache2 ganti KATA KATA

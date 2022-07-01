@@ -1,0 +1,10 @@
+Tutorial DNS
+
+1.apt-get install bind9 dnsutils
+2.cd /etc/bind
+3.nano named.conf.local.def
+4.cp db.local dan 127
+5.nano fo dan re
+6.nano resolv
+7.reset
+8.nslookup

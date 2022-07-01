@@ -1,0 +1,12 @@
+tutorial ftp server
+
+1.apt-get install proftpd
+2.nano /etc/proftpd/proftpd.conf
+3.hapus pagar di anonymous-directory
+4.anonmous/home/rsqlla/ftp
+5.user max
+6.denny ke AllowAll
+7.hapus # anonymous
+8.</anonymous /home/rsqlla/ftp/>
+user	ftp	anonymous
+</anonymous>

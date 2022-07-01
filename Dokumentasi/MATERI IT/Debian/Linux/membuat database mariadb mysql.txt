@@ -1,0 +1,11 @@
+tutorial cms
+
+sesudah bikin VirtualHost dan arahkan
+ke /var/www/wordpress
+
+install mariadb-server phpmyadmin
+
+mysql -u root -p
+create database risqi;
+create user 'user'@'localhost' identified  by '123';
+grant all privileges on risqi.* to 'user'@'localhost';

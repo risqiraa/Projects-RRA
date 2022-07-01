@@ -1,0 +1,16 @@
+mkdir /home/sharelink
+
+chmod 777 /home/sharelink
+
+nano /etc/samba/smb.conf
+
+[sharelink]
+path = /home/sharelink
+writable = yes
+guest ok = yes
+
+service smbd restart
+
+
+ps aux | grep apt
+kill -9 nomer code

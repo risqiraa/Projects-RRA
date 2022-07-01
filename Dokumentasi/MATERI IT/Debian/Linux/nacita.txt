@@ -1,0 +1,18 @@
+username rsqlla
+servername arurinh
+
+ssh-keygen -t rsa -b 4096 -f ssh_host_rsa_key
+/usr/bin/ssh-keygen -A
+
+117.53.46.104 nacita-07
+103.41.205.43 nacita-08
+
+root
+
+screen -S nama virtual
+pindah dari virtual ke asli ctrl AD
+pindah dari asli ke virtual
+screen -r kode nama virtual
+
+
+mysql-bin.000001    604

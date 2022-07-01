@@ -1,0 +1,29 @@
+tutorial vpn pptp (point to point tunnel protokol)
+
+bahan debian
+
+1.setting ip > nano /et/net/in samain dengan pc utama *nb:vbox
+2.aktifkan > nano /etc/sysctl.c
+3.restart
+4.coba ping
+5.cd room 1&3
+6.cek cd room > nano /et/ap/source
+7.install vpn > apt-get install pptpd
+8.masuk file konfigurasi nano /etc/pptpd.conf
+9.local dan remote ip # buang
+10.isi local ip server
+11.isi remote ip range yang dapat me remote ip
+12.konifgurasi ke 2
+13.masuk nano /etc/ppp/pptpd-op
+14.ms dns 8.8.8.8 ms dns 8.8.4.4
+15.nano /etc/pppp/chap-secret
+16.isi client dan kecuali ip address *
+17.service pptpd restart
+
+18.setting vpn laptopnetwork sharing center
+19.set up new connection 
+20.connect to workplace
+21.use vpn
+22.ip server dan nama >crate
+23.username dan password
+

@@ -1,0 +1,23 @@
+CHMOD 777 /etc/apache2/html/index.html
+
+EXECUTE =1
+WRITE =2
+READ =4
+
+1.Execute
+2.Write
+3.Execute + Write
+4.Read
+5.Execute+Read
+6.Read+Write
+7.Read Write Execute
+
+CHMOD u=rwx,g=rwx,o=r /etc/apache2/html/index.html
+
+menambah
+
+CHMOD u+x,g+x /etc/apache2/html/index.hrml
+
+menghapus
+
+CHMOD u-wx,g-rw,o-rwx /etc/apache2/html/index.html
